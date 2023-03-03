@@ -46,3 +46,28 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
+
+/* Custom Properties */
+:root{
+    --clr-pale-blue : hsl(225, 100%, 94%);
+    --clr-bright-blue : hsl(245, 75%, 52%);
+    
+    /* neutral */
+    --clr-very-pale-blue : hsl(225, 100%, 98%);
+    --clr-desaturated-blue :  hsl(224, 23%, 55%);
+    --clr-dark-blue : hsl(223, 47%, 23%);
+
+    /* Font size */
+    --fs: 1.125rem;
+
+    /* Font family */
+    --ff-outfit: 'Outfit', sans-serif;
+}
+
+/* General Styling */
+body{
+  font-family:var(--ff-outfit);
+  font-size: var(--fs);
+  background-color: var(--clr-very-pale-blue);
+  line-height: 1.7;
+}
