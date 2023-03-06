@@ -13,10 +13,10 @@
     margin: 0;
   }
   /*
-    3. Allow percentage-based heights in the application
+    3. Allow percentage-based heights in the application BUT this cause problem to mobile layout if you give max-width in pixel. So better comment it.
   */
   html, body {
-    height: 100%;
+    /* height: 100%;  */
   }
   /*
     Typographic tweaks!
